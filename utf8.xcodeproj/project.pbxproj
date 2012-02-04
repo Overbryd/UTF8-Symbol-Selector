@@ -7,26 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4739252514DDD9DB0017E295 /* symbols.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 4739252414DDD9DB0017E295 /* symbols.sqlite3 */; };
+		4751C18C14DDC272003317ED /* symbols.marshal in Resources */ = {isa = PBXBuildFile; fileRef = 4751C18B14DDC272003317ED /* symbols.marshal */; };
+		47603E8214DDDF3F00F2BB73 /* MyNSTextFieldCell.rb in Resources */ = {isa = PBXBuildFile; fileRef = 47603E8114DDDF3F00F2BB73 /* MyNSTextFieldCell.rb */; };
+		47603E8514DDE4F700F2BB73 /* string_ext.rb in Resources */ = {isa = PBXBuildFile; fileRef = 47603E8414DDE4F700F2BB73 /* string_ext.rb */; };
+		47603E8814DDE6EB00F2BB73 /* SearchTask.rb in Resources */ = {isa = PBXBuildFile; fileRef = 47603E8714DDE6EB00F2BB73 /* SearchTask.rb */; };
 		47C0AF7414DABFD700687E2C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C0AF7314DABFD700687E2C /* Cocoa.framework */; };
-		47C0AF7614DABFD700687E2C /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C0AF7514DABFD700687E2C /* MacRuby.framework */; };
 		47C0AF7D14DABFD700687E2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47C0AF7B14DABFD700687E2C /* InfoPlist.strings */; };
 		47C0AF7F14DABFD700687E2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C0AF7E14DABFD700687E2C /* main.m */; };
 		47C0AF8414DABFD700687E2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C0AF8214DABFD700687E2C /* MainMenu.xib */; };
 		47C0AF8714DABFD700687E2C /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 47C0AF8614DABFD700687E2C /* rb_main.rb */; };
 		47C0AF8914DABFD700687E2C /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 47C0AF8814DABFD700687E2C /* AppDelegate.rb */; };
+		47C0AF9314DABFFB00687E2C /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C0AF9214DABFFB00687E2C /* MacRuby.framework */; };
+		47C0AF9D14DAC8D200687E2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47C0AF9914DAC8D200687E2C /* InfoPlist.strings */; };
+		47C0AF9E14DAC8D200687E2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C0AF9B14DAC8D200687E2C /* MainMenu.xib */; };
+		47C0AFA014DAC94100687E2C /* MyController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 47C0AF9F14DAC94100687E2C /* MyController.rb */; };
+		47C0B21314DAD96B00687E2C /* Utf8Symbol.rb in Resources */ = {isa = PBXBuildFile; fileRef = 47C0B21214DAD96B00687E2C /* Utf8Symbol.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4739252414DDD9DB0017E295 /* symbols.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = symbols.sqlite3; sourceTree = "<group>"; };
+		4751C18B14DDC272003317ED /* symbols.marshal */ = {isa = PBXFileReference; lastKnownFileType = file; path = symbols.marshal; sourceTree = "<group>"; };
+		47603E8114DDDF3F00F2BB73 /* MyNSTextFieldCell.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyNSTextFieldCell.rb; sourceTree = "<group>"; };
+		47603E8414DDE4F700F2BB73 /* string_ext.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = string_ext.rb; sourceTree = "<group>"; };
+		47603E8714DDE6EB00F2BB73 /* SearchTask.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SearchTask.rb; sourceTree = "<group>"; };
 		47C0AF6F14DABFD700687E2C /* utf8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = utf8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C0AF7314DABFD700687E2C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		47C0AF7514DABFD700687E2C /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		47C0AF7A14DABFD700687E2C /* utf8-Info.plist */ = {isa = PBXFileReference; path = "utf8-Info.plist"; sourceTree = "<group>"; };
+		47C0AF7A14DABFD700687E2C /* utf8-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "utf8-Info.plist"; sourceTree = "<group>"; };
 		47C0AF7C14DABFD700687E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47C0AF7E14DABFD700687E2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		47C0AF8014DABFD700687E2C /* utf8-Prefix.pch */ = {isa = PBXFileReference; path = "utf8-Prefix.pch"; sourceTree = "<group>"; };
+		47C0AF8014DABFD700687E2C /* utf8-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "utf8-Prefix.pch"; sourceTree = "<group>"; };
 		47C0AF8314DABFD700687E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		47C0AF8614DABFD700687E2C /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		47C0AF8814DABFD700687E2C /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		47C0AF9214DABFFB00687E2C /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		47C0AF9A14DAC8D200687E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		47C0AF9C14DAC8D200687E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		47C0AF9F14DAC94100687E2C /* MyController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyController.rb; sourceTree = "<group>"; };
+		47C0B21214DAD96B00687E2C /* Utf8Symbol.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Utf8Symbol.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47C0AF7414DABFD700687E2C /* Cocoa.framework in Frameworks */,
-				47C0AF7614DABFD700687E2C /* MacRuby.framework in Frameworks */,
+				47C0AF9314DABFFB00687E2C /* MacRuby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +80,8 @@
 		47C0AF7214DABFD700687E2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47C0AF9214DABFFB00687E2C /* MacRuby.framework */,
 				47C0AF7314DABFD700687E2C /* Cocoa.framework */,
-				47C0AF7514DABFD700687E2C /* MacRuby.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,7 +89,11 @@
 		47C0AF7814DABFD700687E2C /* utf8 */ = {
 			isa = PBXGroup;
 			children = (
+				47603E8714DDE6EB00F2BB73 /* SearchTask.rb */,
+				47603E8114DDDF3F00F2BB73 /* MyNSTextFieldCell.rb */,
+				47C0AF9F14DAC94100687E2C /* MyController.rb */,
 				47C0AF8814DABFD700687E2C /* AppDelegate.rb */,
+				47C0B21214DAD96B00687E2C /* Utf8Symbol.rb */,
 				47C0AF8114DABFD700687E2C /* Resources */,
 				47C0AF8514DABFD700687E2C /* Other Sources */,
 				47C0AF7914DABFD700687E2C /* Supporting Files */,
@@ -93,7 +115,10 @@
 		47C0AF8114DABFD700687E2C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4739252414DDD9DB0017E295 /* symbols.sqlite3 */,
+				4751C18B14DDC272003317ED /* symbols.marshal */,
 				47C0AF8214DABFD700687E2C /* MainMenu.xib */,
+				47C0AF9814DAC8D200687E2C /* en.lproj */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -101,9 +126,19 @@
 		47C0AF8514DABFD700687E2C /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				47603E8414DDE4F700F2BB73 /* string_ext.rb */,
 				47C0AF8614DABFD700687E2C /* rb_main.rb */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		47C0AF9814DAC8D200687E2C /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				47C0AF9914DAC8D200687E2C /* InfoPlist.strings */,
+				47C0AF9B14DAC8D200687E2C /* MainMenu.xib */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +212,15 @@
 				47C0AF8414DABFD700687E2C /* MainMenu.xib in Resources */,
 				47C0AF8714DABFD700687E2C /* rb_main.rb in Resources */,
 				47C0AF8914DABFD700687E2C /* AppDelegate.rb in Resources */,
+				47C0AF9D14DAC8D200687E2C /* InfoPlist.strings in Resources */,
+				47C0AF9E14DAC8D200687E2C /* MainMenu.xib in Resources */,
+				47C0AFA014DAC94100687E2C /* MyController.rb in Resources */,
+				47C0B21314DAD96B00687E2C /* Utf8Symbol.rb in Resources */,
+				4751C18C14DDC272003317ED /* symbols.marshal in Resources */,
+				4739252514DDD9DB0017E295 /* symbols.sqlite3 in Resources */,
+				47603E8214DDDF3F00F2BB73 /* MyNSTextFieldCell.rb in Resources */,
+				47603E8514DDE4F700F2BB73 /* string_ext.rb in Resources */,
+				47603E8814DDE6EB00F2BB73 /* SearchTask.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +250,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				47C0AF8314DABFD700687E2C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		47C0AF9914DAC8D200687E2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C0AF9A14DAC8D200687E2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47C0AF9B14DAC8D200687E2C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C0AF9C14DAC8D200687E2C /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -323,6 +383,7 @@
 				47C0AF8E14DABFD700687E2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47C0AF8F14DABFD700687E2C /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -331,6 +392,7 @@
 				47C0AF9114DABFD700687E2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
